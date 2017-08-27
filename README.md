@@ -13,7 +13,10 @@
 
 ##### Setup Instructions
 
-1. Install Go and Set GOPATH
+1. Install Go and Set GOPATH to amasym-webstore dir, for eg.
+```
+    export GOPATH=$HOME/amasym-webstore
+```
 2. Open a terminal and type 
 ```
 cd amaysim-webstore/src/test

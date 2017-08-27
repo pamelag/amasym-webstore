@@ -1,7 +1,7 @@
 # amasym-webstore
-##Amasym programming exercise built using Golang
+## Amasym programming exercise built using Golang
 
-#####This exercise is done entirely using Golang. It uses goland standard lib and the design decisions are as follows.
+##### This exercise is done entirely using Golang. It uses goland standard lib and the design decisions are as follows.
 
 - ShoppingCart, Item and Product have been modeled to incorporate both behavior and data
 
@@ -11,7 +11,7 @@
 
 
 
-#####Setup Instructions
+##### Setup Instructions
 
 1. Install Go and Set GOPATH
 2. Open a terminal and type 

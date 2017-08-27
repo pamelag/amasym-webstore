@@ -39,7 +39,7 @@ func main() {
 		
 		
 	} else {
-		
+		// default block
 		fmt.Println("Shopping Cart Programming Exercise")
 	}
 	

@@ -2,7 +2,7 @@ package shoppingcart
 
 import (
 	"testing"
-	"product"
+	"../product"
 )
 
 func Test_DefaultRule_CalculateTotal(t *testing.T) {

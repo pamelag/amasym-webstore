@@ -1,8 +1,8 @@
 package main
 
 import (
-	"product"
-	"inmem"
+	"./product"
+	"./inmem"
 	"fmt"
 	"flag"
 	"log"
@@ -22,8 +22,10 @@ func init () {
 
 func main() {
 	
-	displayCatalog := flag.Bool("catalog", true, "Product Catalog")
-	
+	displayCatalog := flag.Bool("catalog", false, "Product Catalog")
+
+	flag.Parse()
+
 	if *displayCatalog {
 		
 		var products []product.Product
@@ -42,7 +44,4 @@ func main() {
 		// default block
 		fmt.Println("Shopping Cart Programming Exercise")
 	}
-	
-	
-	
 }

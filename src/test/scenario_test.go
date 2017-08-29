@@ -1,9 +1,9 @@
 package test
 
 import (
-	"product"
-	"inmem"
-	ShoppingCart "shoppingcart"
+	"../product"
+	"../inmem"
+	ShoppingCart "../shoppingcart"
 	"testing"
 	"log"
 	"bytes"

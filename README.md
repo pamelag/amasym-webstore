@@ -1,22 +1,20 @@
 # amaysim-webstore
 ## amaysim programming exercise built using Golang
 
-This exercise is done entirely using Golang. It uses golang standard lib and the design decisions are as follows.
+This exercise is done entirely using Golang. It uses standard lib only and my design decisions are as follows :
 
-- ShoppingCart, Item and Product have been modeled to incorporate both behavior and data
+- ShoppingCart, Item and Product have been modeled as domain entities with factory methods to create new instances
 
-- PricingRule has been defined as an Interface with implementations for special offers and promotions
+- The PricingRule has been defined as an interface with implementations for special offers and promotions
 
-- Repository interface has an in-memory implementation to hold Products
+- Product has a Repository interface with an in-memory implementation to hold Products
 
 
 
 ##### Setup Instructions
 
-1. Install Go and Set GOPATH to amaysim-webstore dir, for eg.
-```
-    export GOPATH=$HOME/amaysim-webstore
-```
+1. Install Go
+
 2. Open a terminal and type 
 ```
 cd amaysim-webstore/src/test

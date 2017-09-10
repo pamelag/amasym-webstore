@@ -1,5 +1,5 @@
 # go-webstore
-## go programming exercise built using Golang
+## a shopping cart built on domain driven principles using Golang
 
 This exercise is done entirely using Golang. It uses standard lib only and my design decisions are as follows :
 

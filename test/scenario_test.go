@@ -257,7 +257,7 @@ func TestShoppingScenario_3(t *testing.T) {
 
 // scenario 4 -
 // 1 x Unlimited 1 GB
-// 1 x 1 GB Data-pack + 'I<3AMAYSIM' Promo Applied
+// 1 x 1 GB Data-pack + 'DemoPromo' Promo Applied
 func TestShoppingScenario_4(t *testing.T) {
 	
 	expectedTotal := 31.32

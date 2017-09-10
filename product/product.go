@@ -5,7 +5,7 @@ const (
 	ULTMEDIUM = "ult_medium"
 	ULTLARGE = "ult_large"
 	ONEGBDATAPACK = "1gb"
-	PROMOCODE = "I<3AMAYSIM"
+	PROMOCODE = "DemoPromo"
 )
 
 type Product struct {

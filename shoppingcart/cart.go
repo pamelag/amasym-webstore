@@ -3,8 +3,8 @@ package shoppingcart
 import (
 	"errors"
 	"reflect"
-	"../product"
-	"../util"
+	"product"
+	"util"
 )
 
 type ShoppingCart struct {

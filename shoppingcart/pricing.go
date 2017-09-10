@@ -1,7 +1,7 @@
 package shoppingcart
 
 import (
-	"../product"
+	"product"
 )
 
 

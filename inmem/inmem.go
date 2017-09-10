@@ -3,7 +3,7 @@ package inmem
 import (
 	"sync"
 	"errors"
-	"../product"
+	"product"
 )
 
 var instance *ProductDataStore

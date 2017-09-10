@@ -1,8 +1,8 @@
 package main
 
 import (
-	"./product"
-	"./inmem"
+	"product"
+	"inmem"
 	"fmt"
 	"flag"
 	"log"

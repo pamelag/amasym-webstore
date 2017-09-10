@@ -1,5 +1,5 @@
-# amaysim-webstore
-## amaysim programming exercise built using Golang
+# go-webstore
+## go programming exercise built using Golang
 
 This exercise is done entirely using Golang. It uses standard lib only and my design decisions are as follows :
 

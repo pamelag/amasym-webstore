@@ -2,7 +2,7 @@ package shoppingcart
 
 import (
 	"testing"
-	"../product"
+	"product"
 )
 
 var pricingRules []PricingRule

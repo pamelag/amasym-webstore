@@ -1,9 +1,9 @@
 package test
 
 import (
-	"../product"
-	"../inmem"
-	ShoppingCart "../shoppingcart"
+	"product"
+	"inmem"
+	ShoppingCart "shoppingcart"
 	"testing"
 	"log"
 	"bytes"
@@ -18,7 +18,6 @@ var productStore product.Repository
 var pricingRules []ShoppingCart.PricingRule
 
 func init () {
-	
 	createProductStore()
 	initializeCatalog()
 	initializePricingRules()
